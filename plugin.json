@@ -1,7 +1,7 @@
 {
-  "name": "ExamplePlugin",
-  "author": "Anuke",
-  "main": "example.ExamplePlugin",
-  "description": "A plugin to demonstrate some basic features.",
+  "name": "AutoPausePlugin",
+  "author": "Shadow53",
+  "main": "com.shadow53.AutoPausePlugin",
+  "description": "A plugin to automatically pause the server if no one is connected",
   "version": 1.0
 }
