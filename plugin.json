@@ -1,7 +1,7 @@
 {
-  "name": "AutoPausePlugin",
+  "name": "AdminPlugin",
   "author": "Shadow53",
-  "main": "com.shadow53.AutoPausePlugin",
-  "description": "A plugin to automatically pause the server if no one is connected",
+  "main": "com.shadow53.AdminPlugin",
+  "description": "A plugin to run admin commands from the chat",
   "version": 1.0
 }
