@@ -25,7 +25,7 @@ import mindustry.net.Packets.KickReason;
 import mindustry.type.Item;
 import mindustry.world.blocks.storage.*;
 
-public class AutoPausePlugin extends Plugin{
+public class AdminPlugin extends Plugin{
     private void sendMessage(Player player, String fmt, Object ... tokens) {
         player.sendMessage(String.format(fmt, tokens));
     }
