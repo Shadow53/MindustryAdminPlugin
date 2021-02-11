@@ -2,20 +2,20 @@ kind: pipeline:
 name: default
 
 steps:
-- name: test
-  image: openjdk:latest
-  commands:
-      - ./gradlew jar
-- name: gitea_release
-  image: plugins/gitea-release
-  settings:
-    api_key:
-        from_secret: gitea_token
-    base_url: https://git.shadow53.com
-    files: build/libs/*.jar
-    checksum:
-      - md5
-      - sha256
-      - sha512
-  when:
-    event: tag
+    - name: test
+      image: openjdk:latest
+      commands:
+          - ./gradlew jar
+    - name: gitea_release
+      image: plugins/gitea-release
+      settings:
+          api_key:
+              from_secret: gitea_token
+          base_url: https://git.shadow53.com
+          files: build/libs/AdminPlugin.jar
+          checksum:
+            - md5
+            - sha256
+            - sha512
+      when:
+          event: tag
