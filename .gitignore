@@ -3,6 +3,8 @@
 .settings
 .gradle
 
+/build/
+
 # ---> Java
 # Compiled class file
 *.class
