@@ -1,8 +1,8 @@
-kind: pipeline:
+kind: pipeline
 name: default
 
 steps:
-    - name: test
+    - name: build jar
       image: openjdk:latest
       commands:
           - ./gradlew jar
