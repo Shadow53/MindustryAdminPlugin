@@ -18,4 +18,5 @@ steps:
             - sha256
             - sha512
       when:
-          event: tag
+          event:
+              - tag
